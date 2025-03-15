@@ -44,7 +44,6 @@ void listFiles(const char *directory) {
 }
 
 int main(){
-    SetConsoleOutputCP(CP_UTF8);
     const char addr[120];
     while(1){
         printf("Enter the addres of directory: (exemple : ../ , ./): ");
